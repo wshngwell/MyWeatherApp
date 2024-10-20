@@ -16,7 +16,7 @@ import com.example.myweatherapp.ui.theme.MyWeatherAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+
         setContent {
             MyWeatherAppTheme {
 
